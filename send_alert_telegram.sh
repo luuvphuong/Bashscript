@@ -1,7 +1,8 @@
 #!/bin/bash
 
 API="https://api.telegram.org/bot7138980867:AAFSCc-O_l1owbq6mdQBb0J6W18dMvYS0l0/sendMessage"
-chatid=" -4215079471 -4568392397 "
+chatid=" -4215079471 -4568392397 "   # them id group nhan canh bao
+# ham gui canh bao kiem tra dich vu
 function check_service() {
 	for x in $chatid
 	do
@@ -16,6 +17,7 @@ function check_service() {
 	done
 }
 
+#ham gui canh bao disk
 function check_disk() {
         for x in $chatid
         do
